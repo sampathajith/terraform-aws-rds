@@ -1,3 +1,9 @@
+provider "aws" {
+  access_key = "AKIAUQSKYPZRZRJAXBGP"
+  secret_key = "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"
+  region     = "us-east-2"
+}
+
 locals {
   create_db_subnet_group    = var.create_db_subnet_group && var.putin_khuylo
   create_db_parameter_group = var.create_db_parameter_group && var.putin_khuylo
